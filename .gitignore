@@ -1,0 +1,73 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+pose/coco/
+env/
+venv/
+ENV/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+.DS_Store
+
+# Project specific
+# Output directory with detection results
+output/
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.jpg
+*.png
+# Except test videos in the test_vdos directory
+
+# Model files - consider which ones to track
+# Uncomment if you don't want to track model files
+# *.pt
+# *.pth
+# *.onnx
+# *.pb
+# *.caffemodel
+# *.prototxt
+# Keeping YOLOv8 model for convenience
+!yolov8n-pose.pt
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+config.ini
+*.cfg
+*.conf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Misc
+.nfs*
+.*.kate-swp
+.project
+.pydevproject
+.ropeproject 
+*.proto
+*.pt
