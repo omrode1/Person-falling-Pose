@@ -6,6 +6,8 @@ This is a computer vision-based fall detection system to detect people falling i
 
 ![mediapipe_fall_detection-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e87db805-f0e2-403f-991d-8a5248909baa)
 
+## Thresholding logic graphical
+![head_position_analysis](https://github.com/user-attachments/assets/4ad0942e-c986-4170-84fb-8891422307f4)
 
 
 ## Features
