@@ -14,6 +14,10 @@ This is a computer vision-based fall detection system to detect people falling i
 - Ability to process video files or live camera feeds
 - Results visualization with head position analysis graphs
 
+
+https://github.com/user-attachments/assets/2b6de436-4d06-451b-9da2-98eb2588e1e8
+
+
 ## Requirements
 - Python 3.8+
 - OpenCV 4.x
