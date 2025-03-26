@@ -2,6 +2,7 @@
 
 ## Overview
 This is a computer vision-based fall detection system to detect people falling in video streams. The system uses pose estimation algorithms to track human body keypoints and detect anomalies that indicate a fall.
+![mediapipe_fall_detected_frame_24](https://github.com/user-attachments/assets/91ad5ee5-c7c3-46cc-8fe4-8c39ce9fad2a)
 
 ## Features
 - Real-time fall detection using YOLOv8 Pose estimation
