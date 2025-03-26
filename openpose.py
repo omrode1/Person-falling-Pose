@@ -15,7 +15,7 @@ import mediapipe as mp
 # USER CONFIGURATION
 #---------------------
 # Video source
-VIDEO_SOURCE = "test_vdos/personfalling.mp4"
+VIDEO_SOURCE = "./test_vdos/personfalling.mp4"
 
 # Detection parameters
 FALL_ANGLE_THRESHOLD = 70  # Larger angle = less sensitive (degrees)
@@ -29,7 +29,7 @@ SHOW_ANGLES = True  # Show angle measurements on screen
 SAVE_DETECTIONS = True  # Save frames when falls are detected
 DRAW_SKELETON = True  # Draw the skeleton pose
 SAVE_OUTPUT_VIDEO = True  # Save the processed video
-HEADLESS_MODE = True  # Set to True if running in a headless environment
+HEADLESS_MODE = False  # Set to True if running in a headless environment
 #---------------------
 
 # Print system info

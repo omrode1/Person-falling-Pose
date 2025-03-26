@@ -8,6 +8,16 @@ This is a computer vision-based fall detection system to detect people falling i
 
 ## Thresholding logic graphical
 ![head_position_analysis](https://github.com/user-attachments/assets/4ad0942e-c986-4170-84fb-8891422307f4)
+The graph above shows the head position analysis used for fall detection:
+
+- The blue line represents the vertical (y-coordinate) position of the person's head over time
+- The orange line shows the smoothed trajectory using Savitzky-Golay filtering
+- The red dashed line indicates the fall detection threshold
+- When the head position drops below this threshold rapidly, it triggers fall detection
+- The shaded red region highlights the time period where a fall was detected
+
+This visualization helps demonstrate how the system tracks sudden changes in head position to identify potential falls. The smoothing filter helps reduce noise while preserving the sharp transitions that characterize fall events.
+
 
 
 ## Features
